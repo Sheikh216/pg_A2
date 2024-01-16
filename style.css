@@ -26,6 +26,20 @@ header{
  margin-bottom: 10px;
 }
 
+.footer-pic{
+ display: flex;
+ /* border:2px solid green; */
+ font-family: Mulish;
+ font-size: 36px;
+ margin-bottom: 10px;
+ justify-content: center;
+ margin-top: 40px;
+}
+
+footer{
+
+}
+
 li{
  list-style: none;
  margin-left: 15px;
@@ -229,12 +243,21 @@ padding-right: 10px;
  display: flex;
  margin-left: 135px;
  margin-right: 135px;
- border-radius: 2px solid red;
+ justify-content: space-between;
+ 
+
+ 
 
 }
 .newsletter{
  width: 50%;
- border-radius: 5px solid rgb(18, 18, 1);
+ 
+
+ border-radius: 5px;
+ padding-left: 20px;
+ margin-top: 20px;
+ border-radius: 16px;
+border: 1px solid #FF5400;
  
 
 }
@@ -247,9 +270,11 @@ background: rgba(19, 19, 24, 0.05);
 
 }
 
-.ima{
- margin-left: 43px;
- margin-top: 10px;
+.ima img{
+ margin-left: 10px;
+ margin-top: 10px; 
+ 
+ width: 540px;
 }
 
 .extra{
@@ -272,6 +297,42 @@ transform: rotate(-19.628deg);
  font-size: 32px;
 }
 
+.foot{
+ margin-left: 135px;
+ margin-right: 135px;
+ margin-top: 150px;
+}
+
+.foot p{
+ padding-left: 50px;
+ padding-right: 50px;
+ color: #5A5A5D;
+
+text-align: center;
+}
+
+.logo img{
+ width: 50px;
+ 
+ 
+ margin-left: 53px
+}
+
+.logo{
+ margin-left: 613px;
+}
+
+.bonus{
+ margin-left: 135px;
+ margin-right: 135px;
+ align-items: center;
+ text-align: center;
+ margin-top: 50px;
+}
+
+ol{
+ margin-bottom: 10px;
+}
 
 @media screen and (min-width: 601px) and (max-width:1000px) {
  .simple-line {
@@ -338,7 +399,11 @@ transform: rotate(-19.628deg);
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-  width: 600px;
+  width: 89%;
+ }
+ .newsletter{
+  width: 100%;
+  margin-bottom: 20px;
  }
  .extra{
   left: 200px;
@@ -353,6 +418,16 @@ height: 100px;
  .ima{
   width: 10px;
   margin-left: 0px;
+ }
+ .logo{
+  display: flex;
+  margin-left: 10px;
+ }
+ .pa{
+  width: 100%;
+ }
+ .bonus img{
+  width: 120%;
  }
 }
 
