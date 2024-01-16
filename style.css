@@ -87,6 +87,16 @@ border: none;
 color: white;
 padding-right: 10px;
 }
+.btn-Read button{
+ border-radius: 8px;
+ background: #FF5400;
+ width: 393px;
+ height: 52px;
+ border: none;
+ color: white;
+ padding-right: 10px;
+ margin-left: 10px;
+}
 
 /* Tours */
 
