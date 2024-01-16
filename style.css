@@ -1,0 +1,302 @@
+header{
+ display: flex;
+ justify-content: space-between;
+ padding-right: 127px;
+ padding-top: 52px;
+ /* border: 2px solid red; */
+ padding-left: 135px;
+ align-items: center;
+ 
+}
+
+
+.travel{
+ color: #FF5400;
+}
+.list{
+ display: flex;
+ justify-content: space-around;
+}
+
+.pic{
+ display: flex;
+ /* border:2px solid green; */
+ font-family: Mulish;
+ font-size: 36px;
+ margin-bottom: 10px;
+}
+
+li{
+ list-style: none;
+ margin-left: 15px;
+ font-size: 18px;
+}
+
+.Home{
+ color: #FF5400;
+
+
+}
+
+/* EXPLORE YOUR TRAVELS */
+
+.blog{
+ 
+ height: 500px;
+ margin-right: 135px;
+ margin-left: 135px;
+ margin-top: 90px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+ color:white;
+ font-family: Mulish;
+ font-size: 38px;
+ background-image: url("Group 13 (1) (1).png");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.inputs{
+ 
+ display:flex;
+ border-radius: 16px;
+background: linear-gradient(180deg, rgba(173, 173, 178, 0.8) 0%, rgba(21, 21, 114, 0) 100%);
+justify-content: center;
+ 
+ 
+}
+.inp input {
+ border-radius: 8px;
+ 
+
+margin: 10px;
+width: 134px;
+height: 32px;
+border: none;
+
+}
+
+.btn button{
+ border-radius: 8px;
+background: #FF5400;
+width: 134px;
+height: 38px;
+border: none;
+color: white;
+padding-right: 10px;
+}
+
+/* Tours */
+
+.tours{
+ 
+ margin-right: 135px;
+ margin-left: 135px;
+ margin-top: 90px;
+ font-family: Mulish;
+ display: flex;
+ font-size: 31px;
+}
+
+.content{
+ 
+ width: 50%;
+ margin-right: auto;
+ 
+}
+
+/* DESTINATION */
+
+.write{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ font-family: Mulish;
+ margin-bottom: 25px;
+ margin-top: 75px;
+}
+
+.txt{
+ position: absolute;
+ top: 310%;
+ left: 26%;
+ color: beige;
+ font-size: 25px;
+ 
+ 
+}
+
+.txts{
+ position: absolute;
+ top: 310%;
+ left: 70%;
+ color: beige;
+ font-size: 25px;
+}
+
+.maldives{
+ margin-left: 135px;
+ display: flex;
+ justify-content: space-between;
+ margin-right: 135px;
+ margin-top: 10px;
+ 
+ 
+ 
+}
+
+.maldives img{
+ width: 100%;
+ margin-left: 10px;
+}
+
+.Sri{
+ margin-left: 135px;
+ display: flex;
+ justify-content: space-between;
+ margin-right: 135px;
+ margin-top: 10px;
+
+}
+
+.Sri img{
+ width: 100%;
+ margin-left: 10px;
+}
+
+.bd{
+ margin-left: 135px;
+ display: flex;
+ justify-content: space-between;
+ margin-right: 135px;
+ margin-top: 10px;
+}
+
+.bd img{
+ width: 100%;
+ margin-left: 10px;
+}
+
+.choose_us{
+ /* border: 2px solid red; */
+ margin-left: 135px;
+ display: flex;
+ margin-top: 20px;
+ margin-right: 135px;
+}
+
+.two_img{
+ /* border: 2px solid gray; */
+ width: 50%;
+ padding-left:20px ;
+ background: rgba(251, 181, 99, 0.05);
+ border-radius: 10px;
+ /* height: 284px; */
+ padding-right: 100px;
+ margin-right: 15px;
+ font-size: 20px;
+ 
+}
+
+.one_img{
+ background: rgba(41, 206, 246, 0.05);
+ width: 50%;
+ border-radius: 10px;
+ /* height: 284px; */
+ padding-right: 30px;
+ padding-left: 15px;
+ font-size: 20px;
+
+}
+.hotel{
+ width: 64px;
+ height: 64px;
+}
+
+.news{
+ margin-left: 135px;
+ margin-right: 135px;
+ border-radius: 2px solid red;
+
+}
+.newsletter{
+ width: 50%;
+ border-radius: 5px solid rgb(18, 18, 1);
+ 
+
+}
+
+.newsletter input{
+ width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width:1000px) {
+ .simple-line {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 600px) {
+ .links {
+   display: none;
+ }
+
+ .simple-line {
+   border: 1px solid #FF5400;
+   width: 25%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ .inputs{
+  display: flex;
+  flex-direction: column;
+ }
+ .blog{
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 100px;
+  width: 95%;
+  border-radius: 10px;
+ }
+ .tours{
+  flex-direction: column;
+  margin-left: 15px;
+ }
+ .content{
+  margin-bottom: 10px;
+  width: 100%;
+ }
+ .image{
+  width: 95%;
+ }
+ .bd,.Sri,.maldives{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 95%;
+ }
+ .choose_us{
+  flex-direction: column;
+  margin-left: 10px;
+  
+ }
+ .two_img{
+  width: 95%;
+  margin-bottom: 10px;
+ }
+ .one_img{
+  width: 100%;
+  
+ }
+}
+
+ 
